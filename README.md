@@ -8,8 +8,14 @@ write it down. There is a puzzle of a duck and each correct answer paints one pa
 puzzle.
 
 The game supports the following languages:
-Bosnian (bs), German (de), English (en), Spanish (es), French (fr), 
-Croatian (hr) and Serbian (sr).
+Bosnian (bs), 
+German (de), 
+English (en), 
+Spanish (es), 
+French (fr), 
+Croatian (hr),
+Dutch (nl) and 
+Serbian (sr).
 
 Live demo
 ---------

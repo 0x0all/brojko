@@ -7,6 +7,7 @@ import { english } from './i18n/en';
 import { spanish } from './i18n/es';
 import { french } from './i18n/fr';
 import { croatian } from './i18n/hr';
+import { dutch } from './i18n/nl';
 import { serbian } from './i18n/sr';
 
 export const BOSNIAN = 'bs';
@@ -16,6 +17,7 @@ export const ENGLISH = 'en';
 export const GERMAN = 'de';
 export const FRENCH = 'fr';
 export const SPANISH = 'es';
+export const DUTCH = 'nl';
 
 export type LanguageID =
   | typeof BOSNIAN
@@ -24,7 +26,8 @@ export type LanguageID =
   | typeof ENGLISH
   | typeof GERMAN
   | typeof FRENCH
-  | typeof SPANISH;
+  | typeof SPANISH
+  | typeof DUTCH;
 
 export interface Translation {
   chooseYourLanguage: string;
@@ -47,6 +50,7 @@ export function initializeTranslations(): Translations {
   result.set(GERMAN, german);
   result.set(FRENCH, french);
   result.set(SPANISH, spanish);
+  result.set(DUTCH, dutch);
 
   // Post-condition
   if (result.size === 0) {
